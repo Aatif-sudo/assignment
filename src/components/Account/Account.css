@@ -1,0 +1,15 @@
+.account_page{
+  height: 100vh;
+ background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.account_page>a{
+  text-decoration: none;
+  padding: 16px 32px;
+  background-color: #e2e2e2;
+  border-radius: 5px;
+  color: #7f00ff;
+  font-size: 2rem;
+}

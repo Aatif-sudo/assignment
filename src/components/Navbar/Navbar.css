@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding:  1rem 2.5rem;
+  transition: all 0.5s;
+}
+.navbar_container{
+width: 80%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+ .navigation{
+   display: flex;
+   width: 70%;
+   align-items: center;
+   justify-content:space-around;
+   list-style: none;
+ }
+ .navbar ul li a {
+   text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  color: darkgray;
+  transition: color 0.5s;
+ }
+.navbar ul li a:hover{
+color: var(--secondary);
+}
+.nav_button{
+ display: inline-block;
+ padding: 10px 32px;
+ border: none;
+ color: white !important;
+margin-left:auto;
+height: max-content;
+width: max-content;
+background-color: var(--secondary);
+border-radius: 5px;
+}
+
+ .logo_text{
+   font-family: Montserrat;
+   font-weight: 700;
+   font-size: 1.5rem;
+   color: var(--secondary);
+
+ }

@@ -1,0 +1,15 @@
+.documentation_page{
+  height: 100vh;
+   background: linear-gradient(to right, #7f00ff, #e100ff);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.documentation_page>a{
+  text-decoration: none;
+  padding: 32px 64px;
+  background-color: #e100ff;
+  border-radius: 5px;
+  color: #7f00ff;
+  font-size: 2rem;
+}
